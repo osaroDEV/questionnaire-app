@@ -40,7 +40,7 @@ const Home = () => {
                 onClick={handleFirst}
               />
               <div className='h-[90%] w-[65%] flex flex-col justify-center'>
-                <p className='text-sm pr-[2rem]'>Gather customer feedback</p>
+                <p className='text-sm pr-[3rem]'>Gather customer feedback</p>
               </div>
             </div>
             <div className='flex items-center justify-around border w-[100%] h-[50px] bg-white'>
@@ -84,7 +84,7 @@ const Home = () => {
                 onClick={handleSecond}
               />
               <div className='h-[90%] w-[65%] flex flex-col justify-center'>
-                <p className='text-sm pr-[2rem]'>Gather customer feedback</p>
+                <p className='text-sm pr-[3rem]'>Gather customer feedback</p>
               </div>
             </div>
             <div className='flex items-center justify-around border w-[100%] h-[50px] bg-white'>
@@ -128,7 +128,7 @@ const Home = () => {
                 onClick={handleThird}
               />
               <div className='h-[90%] w-[65%] flex flex-col justify-center'>
-                <p className='text-sm pr-[2rem]'>Gather customer feedback</p>
+                <p className='text-sm pr-[3rem]'>Gather customer feedback</p>
               </div>
             </div>
             <div className='flex items-center justify-around border w-[100%] h-[50px] bg-white'>
@@ -172,7 +172,7 @@ const Home = () => {
                 onClick={handleFourth}
               />
               <div className='h-[90%] w-[65%] flex flex-col justify-center'>
-                <p className='text-sm pr-[2rem]'>Gather customer feedback</p>
+                <p className='text-sm pr-[3rem]'>Gather customer feedback</p>
               </div>
             </div>
             <div className='flex items-center justify-around border w-[100%] h-[50px] bg-white'>
