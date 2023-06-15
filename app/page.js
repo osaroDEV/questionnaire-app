@@ -40,34 +40,34 @@ const Home = () => {
                 onClick={handleFirst}
               />
               <div className='h-[90%] w-[65%] flex flex-col justify-center'>
-                <p className='text-sm pr-[3rem]'>Gather customer feedback</p>
+                <p className='text-sm pr-[3rem] font-semibold'>Gather customer feedback</p>
               </div>
             </div>
             <div className='flex items-center justify-around border w-[100%] h-[50px] bg-white'>
               <span className='font-semibold text-[#0277bd]'>A</span>
               <div className='h-[90%] w-[50%] flex flex-col justify-center'>
-                <p className='text-sm'>An online gallery</p>
+                <p className='text-sm font-light'>An online gallery</p>
               </div>
               <div></div>
             </div>
             <div className='flex items-center justify-around border w-[100%] h-[50px] bg-white'>
               <span className='font-semibold text-[#0277bd]'>B</span>
               <div className='h-[90%] w-[50%] flex flex-col justify-center'>
-                <p className='text-sm'>Email survey</p>
+                <p className='text-sm font-light'>Email survey</p>
               </div>
               <div></div>
             </div>
             <div className='flex items-center justify-around border w-[100%] h-[50px] bg-white'>
               <span className='font-semibold text-[#0277bd]'>C</span>
               <div className='h-[90%] w-[50%] flex flex-col justify-center'>
-                <p className='text-sm'>A map</p>
+                <p className='text-sm font-light'>A map</p>
               </div>
               <div></div>
             </div>
             <div className='flex items-center justify-around border w-[100%] h-[50px] bg-white'>
               <span className='font-semibold text-[#0277bd]'>D</span>
               <div className='h-[90%] w-[50%] flex flex-col justify-center'>
-                <p className='text-sm'>Social media page</p>
+                <p className='text-sm font-light'>Social media page</p>
               </div>
               <div></div>
             </div>
@@ -84,7 +84,7 @@ const Home = () => {
                 onClick={handleSecond}
               />
               <div className='h-[90%] w-[65%] flex flex-col justify-center'>
-                <p className='text-sm pr-[3rem]'>Gather customer feedback</p>
+                <p className='text-sm pr-[3rem] font-semibold'>Gather customer feedback</p>
               </div>
             </div>
             <div className='flex items-center justify-around border w-[100%] h-[50px] bg-white'>
@@ -128,7 +128,7 @@ const Home = () => {
                 onClick={handleThird}
               />
               <div className='h-[90%] w-[65%] flex flex-col justify-center'>
-                <p className='text-sm pr-[3rem]'>Gather customer feedback</p>
+                <p className='text-sm pr-[3rem] font-semibold'>Gather customer feedback</p>
               </div>
             </div>
             <div className='flex items-center justify-around border w-[100%] h-[50px] bg-white'>
@@ -172,7 +172,7 @@ const Home = () => {
                 onClick={handleFourth}
               />
               <div className='h-[90%] w-[65%] flex flex-col justify-center'>
-                <p className='text-sm pr-[3rem]'>Gather customer feedback</p>
+                <p className='text-sm pr-[3rem] font-semibold'>Gather customer feedback</p>
               </div>
             </div>
             <div className='flex items-center justify-around border w-[100%] h-[50px] bg-white'>
