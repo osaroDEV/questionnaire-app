@@ -1,6 +1,6 @@
 'use client';
 import React, { useState } from 'react';
-import { GrFormClose } from 'react-icons/gr';
+import { FiX } from 'react-icons/fi';
 
 const Home = () => {
   const [isFirstMod, setIsFirstMod] = useState(false);
@@ -35,12 +35,12 @@ const Home = () => {
           <div className='absolute left-[50%] bottom-[50%] translate-y-[50%] translate-x-[-50%] w-[80%] z-10'>
             <div className='flex items-center justify-around border w-[100%] h-[100px] bg-[#0277bd] text-white'>
               <span className='font-semibold'>1</span>
-              <GrFormClose
-                className='absolute top-[15px] right-[25px] bg-white cursor-pointer'
+              <FiX
+                className='absolute top-[15px] right-[25px] text-white text-2xl cursor-pointer'
                 onClick={handleFirst}
               />
-              <div className='h-[90%] w-[50%] flex flex-col justify-center'>
-                <p className='text-sm'>Gather customer feedback</p>
+              <div className='h-[90%] w-[65%] flex flex-col justify-center'>
+                <p className='text-sm pr-[2rem]'>Gather customer feedback</p>
               </div>
             </div>
             <div className='flex items-center justify-around border w-[100%] h-[50px] bg-white'>
@@ -79,39 +79,39 @@ const Home = () => {
           <div className='absolute left-[50%] bottom-[50%] translate-y-[50%] translate-x-[-50%] w-[80%]'>
             <div className='flex items-center justify-around border w-[100%] h-[100px] bg-[#0277bd] text-white'>
               <span className='font-semibold'>1</span>
-              <GrFormClose
-                className='absolute top-[15px] right-[25px] bg-white cursor-pointer'
+              <FiX
+                className='absolute top-[15px] right-[25px] text-white text-2xl cursor-pointer'
                 onClick={handleSecond}
               />
-              <div className='h-[90%] w-[50%] flex flex-col justify-center'>
-                <p className='text-sm'>Gather customer feedback</p>
+              <div className='h-[90%] w-[65%] flex flex-col justify-center'>
+                <p className='text-sm pr-[2rem]'>Gather customer feedback</p>
               </div>
             </div>
             <div className='flex items-center justify-around border w-[100%] h-[50px] bg-white'>
               <span className='font-semibold text-[#0277bd]'>A</span>
               <div className='h-[90%] w-[50%] flex flex-col justify-center'>
-                <p className='text-sm'>An online gallery</p>
+                <p className='text-sm font-light'>An online gallery</p>
               </div>
               <div></div>
             </div>
             <div className='flex items-center justify-around border w-[100%] h-[50px] bg-white'>
               <span className='font-semibold text-[#0277bd]'>B</span>
               <div className='h-[90%] w-[50%] flex flex-col justify-center'>
-                <p className='text-sm'>Email survey</p>
+                <p className='text-sm font-light'>Email survey</p>
               </div>
               <div></div>
             </div>
             <div className='flex items-center justify-around border w-[100%] h-[50px] bg-white'>
               <span className='font-semibold text-[#0277bd]'>C</span>
               <div className='h-[90%] w-[50%] flex flex-col justify-center'>
-                <p className='text-sm'>A map</p>
+                <p className='text-sm font-light'>A map</p>
               </div>
               <div></div>
             </div>
             <div className='flex items-center justify-around border w-[100%] h-[50px] bg-white'>
               <span className='font-semibold text-[#0277bd]'>D</span>
               <div className='h-[90%] w-[50%] flex flex-col justify-center'>
-                <p className='text-sm'>Social media page</p>
+                <p className='text-sm font-light'>Social media page</p>
               </div>
               <div></div>
             </div>
@@ -123,39 +123,39 @@ const Home = () => {
           <div className='absolute left-[50%] bottom-[50%] translate-y-[50%] translate-x-[-50%] w-[80%]'>
             <div className='flex items-center justify-around border w-[100%] h-[100px] bg-[#0277bd] text-white'>
               <span className='font-semibold'>1</span>
-              <GrFormClose
-                className='absolute top-[15px] right-[25px] bg-white cursor-pointer'
+              <FiX
+                className='absolute top-[15px] right-[25px] text-white text-2xl cursor-pointer'
                 onClick={handleThird}
               />
-              <div className='h-[90%] w-[50%] flex flex-col justify-center'>
-                <p className='text-sm'>Gather customer feedback</p>
+              <div className='h-[90%] w-[65%] flex flex-col justify-center'>
+                <p className='text-sm pr-[2rem]'>Gather customer feedback</p>
               </div>
             </div>
             <div className='flex items-center justify-around border w-[100%] h-[50px] bg-white'>
               <span className='font-semibold text-[#0277bd]'>A</span>
               <div className='h-[90%] w-[50%] flex flex-col justify-center'>
-                <p className='text-sm'>An online gallery</p>
+                <p className='text-sm font-light'>An online gallery</p>
               </div>
               <div></div>
             </div>
             <div className='flex items-center justify-around border w-[100%] h-[50px] bg-white'>
               <span className='font-semibold text-[#0277bd]'>B</span>
               <div className='h-[90%] w-[50%] flex flex-col justify-center'>
-                <p className='text-sm'>Email survey</p>
+                <p className='text-sm font-light'>Email survey</p>
               </div>
               <div></div>
             </div>
             <div className='flex items-center justify-around border w-[100%] h-[50px] bg-white'>
               <span className='font-semibold text-[#0277bd]'>C</span>
               <div className='h-[90%] w-[50%] flex flex-col justify-center'>
-                <p className='text-sm'>A map</p>
+                <p className='text-sm font-light'>A map</p>
               </div>
               <div></div>
             </div>
             <div className='flex items-center justify-around border w-[100%] h-[50px] bg-white'>
               <span className='font-semibold text-[#0277bd]'>D</span>
               <div className='h-[90%] w-[50%] flex flex-col justify-center'>
-                <p className='text-sm'>Social media page</p>
+                <p className='text-sm font-light'>Social media page</p>
               </div>
               <div></div>
             </div>
@@ -167,39 +167,39 @@ const Home = () => {
           <div className='absolute left-[50%] bottom-[50%] translate-y-[50%] translate-x-[-50%] w-[80%]'>
             <div className='flex items-center justify-around border w-[100%] h-[100px] bg-[#0277bd] text-white'>
               <span className='font-semibold'>1</span>
-              <GrFormClose
-                className='absolute top-[15px] right-[25px] bg-white cursor-pointer'
+              <FiX
+                className='absolute top-[15px] right-[25px] text-white text-2xl cursor-pointer'
                 onClick={handleFourth}
               />
-              <div className='h-[90%] w-[50%] flex flex-col justify-center'>
-                <p className='text-sm'>Gather customer feedback</p>
+              <div className='h-[90%] w-[65%] flex flex-col justify-center'>
+                <p className='text-sm pr-[2rem]'>Gather customer feedback</p>
               </div>
             </div>
             <div className='flex items-center justify-around border w-[100%] h-[50px] bg-white'>
               <span className='font-semibold text-[#0277bd]'>A</span>
               <div className='h-[90%] w-[50%] flex flex-col justify-center'>
-                <p className='text-sm'>An online gallery</p>
+                <p className='text-sm font-light'>An online gallery</p>
               </div>
               <div></div>
             </div>
             <div className='flex items-center justify-around border w-[100%] h-[50px] bg-white'>
               <span className='font-semibold text-[#0277bd]'>B</span>
               <div className='h-[90%] w-[50%] flex flex-col justify-center'>
-                <p className='text-sm'>Email survey</p>
+                <p className='text-sm font-light'>Email survey</p>
               </div>
               <div></div>
             </div>
             <div className='flex items-center justify-around border w-[100%] h-[50px] bg-white'>
               <span className='font-semibold text-[#0277bd]'>C</span>
               <div className='h-[90%] w-[50%] flex flex-col justify-center'>
-                <p className='text-sm'>A map</p>
+                <p className='text-sm font-light'>A map</p>
               </div>
               <div></div>
             </div>
             <div className='flex items-center justify-around border w-[100%] h-[50px] bg-white'>
               <span className='font-semibold text-[#0277bd]'>D</span>
               <div className='h-[90%] w-[50%] flex flex-col justify-center'>
-                <p className='text-sm'>Social media page</p>
+                <p className='text-sm font-light'>Social media page</p>
               </div>
               <div></div>
             </div>
